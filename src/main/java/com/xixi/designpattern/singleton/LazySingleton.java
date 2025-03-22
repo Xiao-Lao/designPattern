@@ -1,3 +1,5 @@
+package com.xixi.designpattern.singleton;
+
 /**
  * 单例模式 - 懒汉式实现
  * 
@@ -10,7 +12,7 @@ public class LazySingleton {
     
     // 2. 私有构造函数
     private LazySingleton() {
-        System.out.println("LazySingleton 被实例化");
+        System.out.println("com.xixi.designpattern.singleton.LazySingleton 被实例化");
     }
     
     // 3. 公共静态方法，使用双重检查锁定
@@ -29,6 +31,6 @@ public class LazySingleton {
     }
     
     public void doSomething() {
-        System.out.println("LazySingleton 执行业务逻辑");
+        System.out.println("com.xixi.designpattern.singleton.LazySingleton 执行业务逻辑");
     }
 }

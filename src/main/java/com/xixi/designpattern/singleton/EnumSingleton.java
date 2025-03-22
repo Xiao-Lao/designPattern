@@ -1,3 +1,5 @@
+package com.xixi.designpattern.singleton;
+
 /**
  * 单例模式 - 枚举实现
  * 
@@ -13,7 +15,7 @@ public enum EnumSingleton {
     
     // 枚举的构造函数默认是私有的
     EnumSingleton() {
-        System.out.println("EnumSingleton 被实例化");
+        System.out.println("com.xixi.designpattern.singleton.EnumSingleton 被实例化");
     }
     
     public String getData() {
@@ -25,6 +27,6 @@ public enum EnumSingleton {
     }
     
     public void doSomething() {
-        System.out.println("EnumSingleton 执行业务逻辑");
+        System.out.println("com.xixi.designpattern.singleton.EnumSingleton 执行业务逻辑");
     }
 }

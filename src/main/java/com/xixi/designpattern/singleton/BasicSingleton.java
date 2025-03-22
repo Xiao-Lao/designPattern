@@ -1,3 +1,5 @@
+package com.xixi.designpattern.singleton;
+
 /**
  * 单例模式 - 基础实现
  * 
@@ -10,7 +12,7 @@ public class BasicSingleton {
     
     // 2. 私有构造函数，防止外部创建实例
     private BasicSingleton() {
-        System.out.println("BasicSingleton 被实例化");
+        System.out.println("com.xixi.designpattern.singleton.BasicSingleton 被实例化");
     }
     
     // 3. 公共静态方法，提供全局访问点
@@ -20,6 +22,6 @@ public class BasicSingleton {
     
     // 类的业务方法
     public void doSomething() {
-        System.out.println("BasicSingleton 执行业务逻辑");
+        System.out.println("com.xixi.designpattern.singleton.BasicSingleton 执行业务逻辑");
     }
 }

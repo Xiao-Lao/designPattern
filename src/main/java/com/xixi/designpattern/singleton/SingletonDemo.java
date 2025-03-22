@@ -1,3 +1,5 @@
+package com.xixi.designpattern.singleton;
+
 /**
  * 单例模式演示类
  * 
